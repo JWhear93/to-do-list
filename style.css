@@ -27,8 +27,16 @@ form {
 
 .list {
 	font-family: garamond;
-	color: #cc0000;
+	color: green;
 	text-align: center;
+	max-height: 461px;
+	max-width: 480px;
+	overflow: auto;
+}
+
+.item {
+	width: -moz-max-content;
+	margin: 0 auto;
 }
 
 .area {
@@ -38,5 +46,10 @@ form {
 	padding: 15px;
 	border: 2px solid black;
 	max-height: 600px;
-	overflow: auto;
+	
+}
+
+.remover {
+	cursor: pointer;
+	color: red;
 }
