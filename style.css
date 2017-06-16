@@ -1,3 +1,7 @@
+html {
+	background: #444;
+}
+
 h2 {
     font-family: arial;
     text-align: center;
@@ -44,9 +48,11 @@ form {
 }
 
 .area {
+	background: white;
 	display: block;
 	margin: 0 auto;
 	max-width: 500px;
+	min-width: 402px;
 	padding: 15px;
 	border: 2px solid black;
 	max-height: 600px;
