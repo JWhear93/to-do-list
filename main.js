@@ -9,9 +9,9 @@ $(document).ready(function () {
     		$(this).parent().remove();
     	});
     });
-    $(document).on('click', '.info', function () {
-    	$(this).fadeOut('medium', function () {
-    		$(this).remove();
+    $(document).on('click', '.remover2', function () {
+    	$(this).parent().fadeOut('medium', function () {
+    		$(this).parent().remove();
     	});
     });
     $('#clear').click(function () {
