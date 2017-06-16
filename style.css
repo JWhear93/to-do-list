@@ -31,11 +31,13 @@ form {
 
 .list {
 	font-family: garamond;
-	color: green;
+	color: #00db00;
 	text-align: center;
 	max-height: 461px;
 	max-width: 480px;
 	overflow: auto;
+	background: #000;
+	margin: 0 auto;
 }
 
 .item {
