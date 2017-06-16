@@ -4,9 +4,9 @@ $(document).ready(function () {
         $(".list").append('<div class="item">'+ '<p class="itext">' + 'To-do: ' + '<strong>' + toAdd + '</strong>'+ '<span class="remover">' + ' - Remove' + '</span>' + '</p>' + '<hr>' + '</div>');
         $(".item").animate({opacity: '1'});
     });
-    $(document).on('click', '.item', function () {
-    	$(this).fadeOut('medium', function () {
-    		$(this).remove();
+    $(document).on('click', '.remover', function () {
+    	$(this).parent().fadeOut('medium', function () {
+    		$(this).parent().remove();
     	});
         
     });
