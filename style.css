@@ -36,7 +36,11 @@ form {
 
 .item {
 	width: -moz-max-content;
+	width: -o-max-content;
+	width: -ms-max-content;
+	width: -webkit-max-content;
 	margin: 0 auto;
+	opacity: 0;
 }
 
 .area {
