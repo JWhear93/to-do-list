@@ -40,6 +40,10 @@ form {
 	margin: 0 auto;
 }
 
+.info {
+	font-size: 0.7em;
+}
+
 .item {
 	width: -moz-max-content;
 	width: -o-max-content;
@@ -61,7 +65,7 @@ form {
 	
 }
 
-.remover {
+.remover, .remover2 {
 	cursor: pointer;
 	color: red;
 	background: #000;
