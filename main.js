@@ -21,4 +21,11 @@ $(document).ready(function () {
     	var usrInput = prompt('Edit this task', 'Type here');
     	$(this).text(usrInput);
     });
+    $('input').keypress(function (e) {
+    	if (e.which == 13) {
+    		var toAdd = $("input[name=checkListItem]").val();
+        	$(".list").append('<div class="item">'+ '<p class="itext">' + 'To-do: ' + '<strong>' + '<span class="newText">' + toAdd + '</span>' + '</strong>'+ ' - ' + '<span class="remover">' + 'X' + '</span>' + '</p>' + '<hr>' + '</div>');
+        	$(".item").animate({opacity: '1'});
+    	}
+    });
 });
