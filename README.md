@@ -1,1 +1,1 @@
-Simple interactive To-do list made with jQuery as a part of course practice.
+Simple interactive To-do list made with jQuery as a part of course practice. https://jwhear93.github.io/to-do-list/
